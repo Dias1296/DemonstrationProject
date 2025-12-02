@@ -202,6 +202,9 @@
       "Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Contracts.dll": {}
         },
@@ -599,11 +602,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fabio\\Desktop\\Software\\Projects\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "C:\\Users\\fabio\\Desktop\\Software\\Projects\\Repository\\Repository.csproj",
+      "projectPath": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\fabio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fabio\\Desktop\\Software\\Projects\\Repository\\obj\\",
+      "outputPath": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -625,11 +628,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\fabio\\Desktop\\Software\\Projects\\Contracts\\Contracts.csproj": {
-              "projectPath": "C:\\Users\\fabio\\Desktop\\Software\\Projects\\Contracts\\Contracts.csproj"
+            "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Contracts\\Contracts.csproj": {
+              "projectPath": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Contracts\\Contracts.csproj"
             },
-            "C:\\Users\\fabio\\Desktop\\Software\\Projects\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\fabio\\Desktop\\Software\\Projects\\Entities\\Entities.csproj"
+            "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Entities\\Entities.csproj"
             }
           }
         }
