@@ -20,9 +20,15 @@ namespace CompanyEmployees.Presentation.Controllers
         public IActionResult GetCompanies()
         {
             //Removed try-catch block due to Global Exception Handling
-            throw new Exception("Exception");
             var companies = _service.CompanyService.GetAllCompanies(trackChanges: false);
             return Ok(companies);
+        }
+
+        [HttpGet("{id:guid}")]
+        public IActionResult GetCompany(Guid id)
+        {
+            var company = _service.CompanyService.GetCompany(id, trackChanges: false);
+            return Ok(company);
         }
     }
 }
