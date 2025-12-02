@@ -1,4 +1,5 @@
 using CompanyEmployees.Extensions;
+using Contracts;
 using Microsoft.AspNetCore.HttpOverrides;
 using NLog;
 
@@ -27,10 +28,15 @@ builder.Services.AddControllers()
 //Creates the app variable of the type WebApplication
 var app = builder.Build();
 
+//Extract the ILoggerManager service inside the logger variable.
+//Extraction is done after the build because the Build method builds the WebApplication
+//and registers all the services added with IOC
+var logger = app.Services.GetRequiredService<ILoggerManager>();
+//Pass the logger service to the ConfigureExceptionHandler method
+app.ConfigureExceptionHandler(logger);
+
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-    app.UseDeveloperExceptionPage();
-else
+if (app.Environment.IsProduction())
     //Adds middleware for using HSTS
     app.UseHsts();
 
