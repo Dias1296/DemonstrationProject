@@ -22,8 +22,12 @@ builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.AddAutoMapper(typeof(Program));
 
 //Loads controllers from another assembly (another project)
-builder.Services.AddControllers()
-    .AddApplicationPart(typeof(CompanyEmployees.Presentation.AssemblyReference).Assembly);
+builder.Services.AddControllers(config => {
+    config.RespectBrowserAcceptHeader = true;   //Sets the server flag for content negotiation (Accept Header)
+    config.ReturnHttpNotAcceptable = true;      //Sets the server flag to return a Not Acceptable response for non-supported response formats.
+}).AddXmlDataContractSerializerFormatters()
+  .AddCustomCSVFormatter()
+  .AddApplicationPart(typeof(CompanyEmployees.Presentation.AssemblyReference).Assembly);
 
 //Creates the app variable of the type WebApplication
 var app = builder.Build();

@@ -45,5 +45,9 @@ namespace CompanyEmployees.Extensions
             IConfiguration configuration) => 
             services.AddDbContext<RepositoryContext>(opts => 
                 opts.UseSqlServer(configuration.GetConnectionString("sqlConnection")));
+
+        //Adds custom formatter to the list of OutputFormatters
+        public static IMvcBuilder AddCustomCSVFormatter(this IMvcBuilder builder) =>
+            builder.AddMvcOptions(config => config.OutputFormatters.Add(new CsvOutputFormatter()));
     }
 }
