@@ -6,25 +6,35 @@
       "AbsoluteMoniker": "D:0:0:{261CD2E5-AB69-40F7-A2D6-59D1B60F5BD0}|..\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\companyemployees.presentation\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{261CD2E5-AB69-40F7-A2D6-59D1B60F5BD0}|..\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\companyemployees.presentation\\modelbinders\\arraymodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{045A7EF8-085E-4A54-AE32-7AA8EE9E2B93}|..\\Service\\Service.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\service\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63DABCB0-A20C-4707-A37A-F06A31B44CB5}|..\\Entities\\Entities.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\entities\\exceptions\\companycollectionbadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F110C61-0C25-42A6-A79A-F3B8E3E5826C}|..\\Service.Contracts\\Service.Contracts.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\service.contracts\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63DABCB0-A20C-4707-A37A-F06A31B44CB5}|..\\Entities\\Entities.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\entities\\errormodel\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7B736CB-5298-4C3E-846A-009F2EA7113C}|..\\Repository\\Repository.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\repository\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63DABCB0-A20C-4707-A37A-F06A31B44CB5}|..\\Entities\\Entities.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\entities\\exceptions\\collectionbyidsbadrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{415CEE07-5118-46A3-9636-F211FF2E975E}|..\\Contracts\\Contracts.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\contracts\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63DABCB0-A20C-4707-A37A-F06A31B44CB5}|..\\Entities\\Entities.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\entities\\exceptions\\idparametersbadrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{045A7EF8-085E-4A54-AE32-7AA8EE9E2B93}|..\\Service\\Service.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63DABCB0-A20C-4707-A37A-F06A31B44CB5}|..\\Entities\\Entities.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\entities\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7A69612-1C20-4B0F-A3C8-69C1D19C4FDE}|CompanyEmployees.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\companyemployees\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7A69612-1C20-4B0F-A3C8-69C1D19C4FDE}|CompanyEmployees.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261CD2E5-AB69-40F7-A2D6-59D1B60F5BD0}|..\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\companyemployees.presentation\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F110C61-0C25-42A6-A79A-F3B8E3E5826C}|..\\Service.Contracts\\Service.Contracts.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\service.contracts\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7B736CB-5298-4C3E-846A-009F2EA7113C}|..\\Repository\\Repository.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{415CEE07-5118-46A3-9636-F211FF2E975E}|..\\Contracts\\Contracts.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\contracts\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,50 +44,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ArrayModelBinder.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees.Presentation\\ModelBinders\\ArrayModelBinder.cs",
-              "RelativeDocumentMoniker": "..\\CompanyEmployees.Presentation\\ModelBinders\\ArrayModelBinder.cs",
-              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees.Presentation\\ModelBinders\\ArrayModelBinder.cs",
-              "RelativeToolTip": "..\\CompanyEmployees.Presentation\\ModelBinders\\ArrayModelBinder.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T00:05:40.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CompanyCollectionBadRequest.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Entities\\Exceptions\\CompanyCollectionBadRequest.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Exceptions\\CompanyCollectionBadRequest.cs",
-              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Entities\\Exceptions\\CompanyCollectionBadRequest.cs",
-              "RelativeToolTip": "..\\Entities\\Exceptions\\CompanyCollectionBadRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T23:51:55.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CompanyService.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service\\CompanyService.cs",
-              "RelativeDocumentMoniker": "..\\Service\\CompanyService.cs",
-              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service\\CompanyService.cs",
-              "RelativeToolTip": "..\\Service\\CompanyService.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAowEoAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T23:45:58.866Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -87,61 +58,139 @@
               "RelativeDocumentMoniker": "..\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
               "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
               "RelativeToolTip": "..\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwCoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwEQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T23:41:17.091Z",
+              "WhenOpened": "2025-12-30T16:16:16.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service\\CompanyService.cs",
+              "RelativeDocumentMoniker": "..\\Service\\CompanyService.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service\\CompanyService.cs",
+              "RelativeToolTip": "..\\Service\\CompanyService.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAmwGEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T16:14:08.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service.Contracts\\ICompanyService.cs",
+              "RelativeDocumentMoniker": "..\\Service.Contracts\\ICompanyService.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service.Contracts\\ICompanyService.cs",
+              "RelativeToolTip": "..\\Service.Contracts\\ICompanyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T16:13:37.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Repository\\CompanyRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\CompanyRepository.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Repository\\CompanyRepository.cs",
+              "RelativeToolTip": "..\\Repository\\CompanyRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T16:13:07.59Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ErrorDetails.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Entities\\ErrorModel\\ErrorDetails.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\ErrorModel\\ErrorDetails.cs",
-              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Entities\\ErrorModel\\ErrorDetails.cs",
-              "RelativeToolTip": "..\\Entities\\ErrorModel\\ErrorDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ICompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Contracts\\ICompanyRepository.cs",
+              "RelativeDocumentMoniker": "..\\Contracts\\ICompanyRepository.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Contracts\\ICompanyRepository.cs",
+              "RelativeToolTip": "..\\Contracts\\ICompanyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T23:36:46.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CollectionByIdsBadRequestException.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Entities\\Exceptions\\CollectionByIdsBadRequestException.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Exceptions\\CollectionByIdsBadRequestException.cs",
-              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Entities\\Exceptions\\CollectionByIdsBadRequestException.cs",
-              "RelativeToolTip": "..\\Entities\\Exceptions\\CollectionByIdsBadRequestException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T23:35:27.849Z",
+              "WhenOpened": "2025-12-30T16:12:40.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IdParametersBadRequestException.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Entities\\Exceptions\\IdParametersBadRequestException.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Exceptions\\IdParametersBadRequestException.cs",
-              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Entities\\Exceptions\\IdParametersBadRequestException.cs",
-              "RelativeToolTip": "..\\Entities\\Exceptions\\IdParametersBadRequestException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAqwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T23:33:41.749Z",
+              "WhenOpened": "2025-12-30T16:04:33.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "BadRequestException.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Entities\\Exceptions\\BadRequestException.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Exceptions\\BadRequestException.cs",
-              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Entities\\Exceptions\\BadRequestException.cs",
-              "RelativeToolTip": "..\\Entities\\Exceptions\\BadRequestException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "..\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "..\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T23:31:51.533Z",
+              "WhenOpened": "2025-12-30T15:41:07.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "..\\Service\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service\\EmployeeService.cs",
+              "RelativeToolTip": "..\\Service\\EmployeeService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T15:37:35.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service.Contracts\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "..\\Service.Contracts\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service.Contracts\\IEmployeeService.cs",
+              "RelativeToolTip": "..\\Service.Contracts\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T15:36:28.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Repository\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Repository\\EmployeeRepository.cs",
+              "RelativeToolTip": "..\\Repository\\EmployeeRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T15:35:15.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Contracts\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\Contracts\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Contracts\\IEmployeeRepository.cs",
+              "RelativeToolTip": "..\\Contracts\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T15:34:46.953Z",
               "EditorCaption": ""
             }
           ]

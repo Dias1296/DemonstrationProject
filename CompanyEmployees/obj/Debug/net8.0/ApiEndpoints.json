@@ -85,6 +85,27 @@
     "EndpointName": "GetEmployeeForCompany"
   },
   {
+    "ContainingType": "CompanyEmployees.Presentation.Controllers.EmployeesController",
+    "Method": "DeleteEmployeeForCompany",
+    "RelativePath": "api/companies/{companyId}/employees/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CompanyEmployees.Presentation.Controllers.CompaniesController",
     "Method": "GetCompany",
     "RelativePath": "api/companies/{id}",
@@ -100,6 +121,22 @@
     ],
     "ReturnTypes": [],
     "EndpointName": "CompanyById"
+  },
+  {
+    "ContainingType": "CompanyEmployees.Presentation.Controllers.CompaniesController",
+    "Method": "DeleteCompany",
+    "RelativePath": "api/companies/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "CompanyEmployees.Presentation.Controllers.CompaniesController",
