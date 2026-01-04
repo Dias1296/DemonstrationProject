@@ -10,7 +10,7 @@
         "dependencies": {
           "CompanyEmployees.Presentation": "1.0.0",
           "LoggerService": "1.0.0",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.22",
+          "Microsoft.AspNetCore.JsonPatch": "8.0.22",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.22",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.22",
           "Repository": "1.0.0",
@@ -1147,8 +1147,8 @@
       },
       "CompanyEmployees.Presentation/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.JsonPatch": "8.0.22",
           "Microsoft.AspNetCore.Mvc.Core": "2.3.0",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.22",
           "Service.Contracts": "1.0.0"
         },
         "runtime": {
