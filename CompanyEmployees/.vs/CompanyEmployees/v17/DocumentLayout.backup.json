@@ -3,16 +3,25 @@
   "WorkspaceRootPath": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{045A7EF8-085E-4A54-AE32-7AA8EE9E2B93}|..\\Service\\Service.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{045A7EF8-085E-4A54-AE32-7AA8EE9E2B93}|..\\Service\\Service.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\service\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7B736CB-5298-4C3E-846A-009F2EA7113C}|..\\Repository\\Repository.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{261CD2E5-AB69-40F7-A2D6-59D1B60F5BD0}|..\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\companyemployees.presentation\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{905135B9-0AEC-4A61-9D62-8F8930F45824}|..\\Shared\\Shared.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\shared\\datatransferobjects\\employeeforcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{415CEE07-5118-46A3-9636-F211FF2E975E}|..\\Contracts\\Contracts.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\contracts\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{905135B9-0AEC-4A61-9D62-8F8930F45824}|..\\Shared\\Shared.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\shared\\datatransferobjects\\employeeforupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F110C61-0C25-42A6-A79A-F3B8E3E5826C}|..\\Service.Contracts\\Service.Contracts.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\service.contracts\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{905135B9-0AEC-4A61-9D62-8F8930F45824}|..\\Shared\\Shared.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\shared\\datatransferobjects\\employeeformanipulationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{415CEE07-5118-46A3-9636-F211FF2E975E}|..\\Contracts\\Contracts.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\contracts\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +31,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,54 +39,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeesController.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
-              "RelativeDocumentMoniker": "..\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
-              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
-              "RelativeToolTip": "..\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAwFYAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service\\CompanyService.cs",
+              "RelativeDocumentMoniker": "..\\Service\\CompanyService.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service\\CompanyService.cs",
+              "RelativeToolTip": "..\\Service\\CompanyService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAuwGwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T19:22:48.927Z",
+              "WhenOpened": "2026-01-05T23:09:52.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EmployeeForManipulationDto.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Shared\\DataTransferObjects\\EmployeeForManipulationDto.cs",
-              "RelativeDocumentMoniker": "..\\Shared\\DataTransferObjects\\EmployeeForManipulationDto.cs",
-              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Shared\\DataTransferObjects\\EmployeeForManipulationDto.cs",
-              "RelativeToolTip": "..\\Shared\\DataTransferObjects\\EmployeeForManipulationDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "..\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "..\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAswFsAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T19:10:39.409Z",
+              "WhenOpened": "2026-01-05T23:05:32.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "..\\Service\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service\\EmployeeService.cs",
+              "RelativeToolTip": "..\\Service\\EmployeeService.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAwGQAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T22:54:16.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service.Contracts\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "..\\Service.Contracts\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service.Contracts\\IEmployeeService.cs",
+              "RelativeToolTip": "..\\Service.Contracts\\IEmployeeService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T22:52:27.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EmployeeForUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Shared\\DataTransferObjects\\EmployeeForUpdateDto.cs",
-              "RelativeDocumentMoniker": "..\\Shared\\DataTransferObjects\\EmployeeForUpdateDto.cs",
-              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Shared\\DataTransferObjects\\EmployeeForUpdateDto.cs",
-              "RelativeToolTip": "..\\Shared\\DataTransferObjects\\EmployeeForUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAkAAABEAAAAAAAAAA==",
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Repository\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Repository\\EmployeeRepository.cs",
+              "RelativeToolTip": "..\\Repository\\EmployeeRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwBgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T19:06:29.833Z",
+              "WhenOpened": "2026-01-05T22:48:03.398Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeForCreationDto.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Shared\\DataTransferObjects\\EmployeeForCreationDto.cs",
-              "RelativeDocumentMoniker": "..\\Shared\\DataTransferObjects\\EmployeeForCreationDto.cs",
-              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Shared\\DataTransferObjects\\EmployeeForCreationDto.cs",
-              "RelativeToolTip": "..\\Shared\\DataTransferObjects\\EmployeeForCreationDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAkAAABGAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Contracts\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\Contracts\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Contracts\\IEmployeeRepository.cs",
+              "RelativeToolTip": "..\\Contracts\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIA0wA4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T22:57:46.236Z",
+              "WhenOpened": "2026-01-05T22:47:53.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Contracts\\ICompanyRepository.cs",
+              "RelativeDocumentMoniker": "..\\Contracts\\ICompanyRepository.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Contracts\\ICompanyRepository.cs",
+              "RelativeToolTip": "..\\Contracts\\ICompanyRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAWwBAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T19:40:28.353Z",
               "EditorCaption": ""
             }
           ]

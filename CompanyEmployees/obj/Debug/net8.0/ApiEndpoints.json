@@ -43,7 +43,7 @@
   },
   {
     "ContainingType": "CompanyEmployees.Presentation.Controllers.EmployeesController",
-    "Method": "CreateEmployeeForCompany",
+    "Method": "CreateEmployeeForCompanyAsync",
     "RelativePath": "api/companies/{companyId}/employees",
     "HttpMethod": "POST",
     "IsController": true,
@@ -64,7 +64,7 @@
   },
   {
     "ContainingType": "CompanyEmployees.Presentation.Controllers.EmployeesController",
-    "Method": "GetEmployeeForCompany",
+    "Method": "GetEmployeeForCompanyAsync",
     "RelativePath": "api/companies/{companyId}/employees/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -86,7 +86,7 @@
   },
   {
     "ContainingType": "CompanyEmployees.Presentation.Controllers.EmployeesController",
-    "Method": "DeleteEmployeeForCompany",
+    "Method": "DeleteEmployeeForCompanyAsync",
     "RelativePath": "api/companies/{companyId}/employees/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
@@ -107,7 +107,7 @@
   },
   {
     "ContainingType": "CompanyEmployees.Presentation.Controllers.EmployeesController",
-    "Method": "UpdateEmployeeForCompany",
+    "Method": "UpdateEmployeeForCompanyAsync",
     "RelativePath": "api/companies/{companyId}/employees/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -133,7 +133,7 @@
   },
   {
     "ContainingType": "CompanyEmployees.Presentation.Controllers.EmployeesController",
-    "Method": "PartiallyUpdateEmployeeForCompany",
+    "Method": "PartiallyUpdateEmployeeForCompanyAsync",
     "RelativePath": "api/companies/{companyId}/employees/{id}",
     "HttpMethod": "PATCH",
     "IsController": true,
