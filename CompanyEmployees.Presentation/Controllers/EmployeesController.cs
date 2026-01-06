@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ActionFilters;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Service.Contracts;
@@ -35,10 +36,11 @@ namespace CompanyEmployees.Presentation.Controllers
         }
 
         [HttpPost]
+        [ServiceFilter(typeof(ValidationFilterAttribute))]
         public async Task<IActionResult> CreateEmployeeForCompanyAsync(Guid companyId, [FromBody] EmployeeForCreationDto employee)
         {
-            if (employee is null)
-                return BadRequest("EmployeeForCreationDto object is null");
+            //if (employee is null)
+            //    return BadRequest("EmployeeForCreationDto object is null");
 
             if (!ModelState.IsValid)
                 return UnprocessableEntity(ModelState);
@@ -57,11 +59,12 @@ namespace CompanyEmployees.Presentation.Controllers
         }
 
         [HttpPut("{id:guid}")]
+        [ServiceFilter(typeof(ValidationFilterAttribute))]
         public async Task<IActionResult> UpdateEmployeeForCompanyAsync(Guid companyId, Guid id,
             [FromBody] EmployeeForUpdateDto employee)
         {
-            if (employee is null)
-                return BadRequest("EmployeeForUpdateDto object is null.");
+            //if (employee is null)
+            //    return BadRequest("EmployeeForUpdateDto object is null.");
 
             if (!ModelState.IsValid)
                 return UnprocessableEntity(ModelState);

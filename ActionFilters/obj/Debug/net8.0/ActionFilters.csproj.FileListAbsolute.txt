@@ -1,0 +1,13 @@
+C:\Users\fabio\Desktop\DemonstrationProject\ActionFilters\bin\Debug\net8.0\ActionFilters.deps.json
+C:\Users\fabio\Desktop\DemonstrationProject\ActionFilters\bin\Debug\net8.0\ActionFilters.dll
+C:\Users\fabio\Desktop\DemonstrationProject\ActionFilters\bin\Debug\net8.0\ActionFilters.pdb
+C:\Users\fabio\Desktop\DemonstrationProject\ActionFilters\obj\Debug\net8.0\ActionFilters.csproj.AssemblyReference.cache
+C:\Users\fabio\Desktop\DemonstrationProject\ActionFilters\obj\Debug\net8.0\ActionFilters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fabio\Desktop\DemonstrationProject\ActionFilters\obj\Debug\net8.0\ActionFilters.AssemblyInfoInputs.cache
+C:\Users\fabio\Desktop\DemonstrationProject\ActionFilters\obj\Debug\net8.0\ActionFilters.AssemblyInfo.cs
+C:\Users\fabio\Desktop\DemonstrationProject\ActionFilters\obj\Debug\net8.0\ActionFilters.csproj.CoreCompileInputs.cache
+C:\Users\fabio\Desktop\DemonstrationProject\ActionFilters\obj\Debug\net8.0\ActionFilters.sourcelink.json
+C:\Users\fabio\Desktop\DemonstrationProject\ActionFilters\obj\Debug\net8.0\ActionFilters.dll
+C:\Users\fabio\Desktop\DemonstrationProject\ActionFilters\obj\Debug\net8.0\refint\ActionFilters.dll
+C:\Users\fabio\Desktop\DemonstrationProject\ActionFilters\obj\Debug\net8.0\ActionFilters.pdb
+C:\Users\fabio\Desktop\DemonstrationProject\ActionFilters\obj\Debug\net8.0\ref\ActionFilters.dll

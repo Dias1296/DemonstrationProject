@@ -323,3 +323,5 @@ C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees\bin\Debug\net8.0\Mi
 C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees\bin\Debug\net8.0\ActionFilters.dll
+C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees\bin\Debug\net8.0\ActionFilters.pdb

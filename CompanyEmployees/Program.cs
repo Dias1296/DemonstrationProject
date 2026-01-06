@@ -1,3 +1,4 @@
+using ActionFilters;
 using CompanyEmployees.Extensions;
 using Contracts;
 using Microsoft.AspNetCore.HttpOverrides;
@@ -38,6 +39,8 @@ NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter() =>
     .Services.BuildServiceProvider()
     .GetRequiredService<IOptions<MvcOptions>>().Value.InputFormatters
     .OfType<NewtonsoftJsonPatchInputFormatter>().First();
+
+builder.Services.AddScoped<ValidationFilterAttribute>();
 
 //Loads controllers from another assembly (another project)
 builder.Services.AddControllers(config => {

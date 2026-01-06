@@ -18,3 +18,5 @@ C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees.Presentation\bin\De
 C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees.Presentation\bin\Debug\net8.0\Shared.pdb
 C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees.Presentation\bin\Debug\net8.0\Entities.dll
 C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees.Presentation\bin\Debug\net8.0\Entities.pdb
+C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees.Presentation\bin\Debug\net8.0\ActionFilters.dll
+C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees.Presentation\bin\Debug\net8.0\ActionFilters.pdb
