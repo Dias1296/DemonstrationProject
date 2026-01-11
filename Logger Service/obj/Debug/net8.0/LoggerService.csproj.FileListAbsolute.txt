@@ -31,3 +31,5 @@ C:\Users\fabio\Desktop\DemonstrationProject\Logger Service\obj\Debug\net8.0\Logg
 C:\Users\fabio\Desktop\DemonstrationProject\Logger Service\obj\Debug\net8.0\refint\LoggerService.dll
 C:\Users\fabio\Desktop\DemonstrationProject\Logger Service\obj\Debug\net8.0\LoggerService.pdb
 C:\Users\fabio\Desktop\DemonstrationProject\Logger Service\obj\Debug\net8.0\ref\LoggerService.dll
+C:\Users\fabio\Desktop\DemonstrationProject\Logger Service\bin\Debug\net8.0\Shared.dll
+C:\Users\fabio\Desktop\DemonstrationProject\Logger Service\bin\Debug\net8.0\Shared.pdb

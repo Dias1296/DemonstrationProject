@@ -16,7 +16,8 @@ namespace CompanyEmployees.Extensions
                 options.AddPolicy("CorsPolicy", builder =>
                     builder.AllowAnyOrigin()
                     .AllowAnyMethod()
-                    .AllowAnyHeader());
+                    .AllowAnyHeader()
+                    .WithExposedHeaders("X-Pagination"));
                 //Examples for specific origins/methods/headers
                 //WithOrigins("example URL") -> Only allows requests from the example URL origin.
                 //WithMethods("POST", "GET") -> Only allows the specific HTTP methods.
