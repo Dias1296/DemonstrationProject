@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.Extensions.Options;
 using NLog;
+using Service.DataShaping;
+using Shared.DataTransferObjects;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -41,6 +43,8 @@ NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter() =>
     .OfType<NewtonsoftJsonPatchInputFormatter>().First();
 
 builder.Services.AddScoped<ValidationFilterAttribute>();
+
+builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
 
 //Loads controllers from another assembly (another project)
 builder.Services.AddControllers(config => {
