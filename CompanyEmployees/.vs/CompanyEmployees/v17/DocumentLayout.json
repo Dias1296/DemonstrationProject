@@ -3,18 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{63DABCB0-A20C-4707-A37A-F06A31B44CB5}|..\\Entities\\Entities.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\entities\\exceptions\\maxagerangebadrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{045A7EF8-085E-4A54-AE32-7AA8EE9E2B93}|..\\Service\\Service.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7B736CB-5298-4C3E-846A-009F2EA7113C}|..\\Repository\\Repository.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{905135B9-0AEC-4A61-9D62-8F8930F45824}|..\\Shared\\Shared.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\shared\\requestfeatures\\employeeparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C7A69612-1C20-4B0F-A3C8-69C1D19C4FDE}|CompanyEmployees.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\companyemployees\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7A69612-1C20-4B0F-A3C8-69C1D19C4FDE}|CompanyEmployees.csproj|solutionrelative:extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7A69612-1C20-4B0F-A3C8-69C1D19C4FDE}|CompanyEmployees.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\companyemployees\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7A69612-1C20-4B0F-A3C8-69C1D19C4FDE}|CompanyEmployees.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7B736CB-5298-4C3E-846A-009F2EA7113C}|..\\Repository\\Repository.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{045A7EF8-085E-4A54-AE32-7AA8EE9E2B93}|..\\Service\\Service.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{261CD2E5-AB69-40F7-A2D6-59D1B60F5BD0}|..\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\companyemployees.presentation\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -36,9 +42,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{905135B9-0AEC-4A61-9D62-8F8930F45824}|..\\Shared\\Shared.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\shared\\requestfeatures\\requestparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{905135B9-0AEC-4A61-9D62-8F8930F45824}|..\\Shared\\Shared.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\shared\\requestfeatures\\employeeparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,6 +60,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MaxAgeRangeBadRequestException.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Entities\\Exceptions\\MaxAgeRangeBadRequestException.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Exceptions\\MaxAgeRangeBadRequestException.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Entities\\Exceptions\\MaxAgeRangeBadRequestException.cs",
+              "RelativeToolTip": "..\\Entities\\Exceptions\\MaxAgeRangeBadRequestException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T15:59:44.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees\\Extensions\\ServiceExtensions.cs",
               "RelativeDocumentMoniker": "Extensions\\ServiceExtensions.cs",
@@ -69,33 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T15:43:49.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MetaData.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Shared\\RequestFeatures\\MetaData.cs",
-              "RelativeDocumentMoniker": "..\\Shared\\RequestFeatures\\MetaData.cs",
-              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Shared\\RequestFeatures\\MetaData.cs",
-              "RelativeToolTip": "..\\Shared\\RequestFeatures\\MetaData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T15:07:42.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CompaniesController.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
               "RelativeDocumentMoniker": "..\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
@@ -103,25 +93,24 @@
               "RelativeToolTip": "..\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T16:40:19.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-10T16:40:19.539Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service\\EmployeeService.cs",
               "RelativeDocumentMoniker": "..\\Service\\EmployeeService.cs",
               "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service\\EmployeeService.cs",
               "RelativeToolTip": "..\\Service\\EmployeeService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwCEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-10T16:39:20.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "IEmployeeService.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service.Contracts\\IEmployeeService.cs",
               "RelativeDocumentMoniker": "..\\Service.Contracts\\IEmployeeService.cs",
@@ -129,8 +118,7 @@
               "RelativeToolTip": "..\\Service.Contracts\\IEmployeeService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAACNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T16:38:49.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-10T16:38:49.722Z"
             },
             {
               "$type": "Document",
@@ -140,14 +128,14 @@
               "RelativeDocumentMoniker": "..\\Repository\\EmployeeRepository.cs",
               "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Repository\\EmployeeRepository.cs",
               "RelativeToolTip": "..\\Repository\\EmployeeRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBcAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwBoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-10T16:33:13.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "IEmployeeRepository.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Contracts\\IEmployeeRepository.cs",
               "RelativeDocumentMoniker": "..\\Contracts\\IEmployeeRepository.cs",
@@ -155,12 +143,11 @@
               "RelativeToolTip": "..\\Contracts\\IEmployeeRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T16:28:59.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-10T16:28:59.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "RequestParameters.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Shared\\RequestFeatures\\RequestParameters.cs",
               "RelativeDocumentMoniker": "..\\Shared\\RequestFeatures\\RequestParameters.cs",
@@ -168,12 +155,11 @@
               "RelativeToolTip": "..\\Shared\\RequestFeatures\\RequestParameters.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T16:25:12.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-10T16:25:12.631Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "EmployeesController.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
               "RelativeDocumentMoniker": "..\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
@@ -181,12 +167,48 @@
               "RelativeToolTip": "..\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAQwB4AAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T16:23:16.593Z",
+              "WhenOpened": "2026-01-10T16:23:16.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeParameters.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Shared\\RequestFeatures\\EmployeeParameters.cs",
+              "RelativeDocumentMoniker": "..\\Shared\\RequestFeatures\\EmployeeParameters.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Shared\\RequestFeatures\\EmployeeParameters.cs",
+              "RelativeToolTip": "..\\Shared\\RequestFeatures\\EmployeeParameters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T16:27:02.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
+              "Title": "MetaData.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Shared\\RequestFeatures\\MetaData.cs",
+              "RelativeDocumentMoniker": "..\\Shared\\RequestFeatures\\MetaData.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Shared\\RequestFeatures\\MetaData.cs",
+              "RelativeToolTip": "..\\Shared\\RequestFeatures\\MetaData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T15:07:42.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T15:43:49.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "PagedList.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Shared\\RequestFeatures\\PagedList.cs",
               "RelativeDocumentMoniker": "..\\Shared\\RequestFeatures\\PagedList.cs",
@@ -194,21 +216,7 @@
               "RelativeToolTip": "..\\Shared\\RequestFeatures\\PagedList.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA2wB4AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T15:09:02.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EmployeeParameters.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Shared\\RequestFeatures\\EmployeeParameters.cs",
-              "RelativeDocumentMoniker": "..\\Shared\\RequestFeatures\\EmployeeParameters.cs",
-              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Shared\\RequestFeatures\\EmployeeParameters.cs",
-              "RelativeToolTip": "..\\Shared\\RequestFeatures\\EmployeeParameters.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T16:27:02.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T15:09:02.551Z"
             }
           ]
         }
