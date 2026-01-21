@@ -105,7 +105,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Shared\\Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -123,6 +127,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

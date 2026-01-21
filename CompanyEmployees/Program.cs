@@ -1,11 +1,13 @@
 using ActionFilters;
 using CompanyEmployees.Extensions;
+using CompanyEmployees.Utility;
 using Contracts;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.Extensions.Options;
 using NLog;
+using Service.Contracts;
 using Service.DataShaping;
 using Shared.DataTransferObjects;
 
@@ -46,6 +48,8 @@ builder.Services.AddScoped<ValidationFilterAttribute>();
 
 builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
 
+builder.Services.AddScoped<IEmployeeLinks, EmployeeLinks>();
+
 //Loads controllers from another assembly (another project)
 builder.Services.AddControllers(config => {
     config.RespectBrowserAcceptHeader = true;   //Sets the server flag for content negotiation (Accept Header)
@@ -54,6 +58,12 @@ builder.Services.AddControllers(config => {
 }).AddXmlDataContractSerializerFormatters()
   .AddCustomCSVFormatter()
   .AddApplicationPart(typeof(CompanyEmployees.Presentation.AssemblyReference).Assembly);
+
+//Registers media types with HATEOAS
+builder.Services.AddCustomMediaTypes();
+
+//Registers media type filter
+builder.Services.AddScoped<ValidateMediaTypeAttribute>();
 
 //Creates the app variable of the type WebApplication
 var app = builder.Build();

@@ -16,13 +16,13 @@ namespace Service
         private readonly Lazy<IEmployeeService> _employeeService;
 
         public ServiceManager(IRepositoryManager repositoryManager, ILoggerManager logger,
-            IMapper mapper, IDataShaper<EmployeeDto> dataShaper)
+            IMapper mapper, IEmployeeLinks employeeLinks)
         {
             //Lazy is thread safe. Only one thread initializes the instance
             _companyService = new Lazy<ICompanyService>(() => 
                 new CompanyService(repositoryManager, logger, mapper));
             _employeeService = new Lazy<IEmployeeService>(() => 
-                new EmployeeService(repositoryManager, logger, mapper, dataShaper));
+                new EmployeeService(repositoryManager, logger, mapper, employeeLinks));
         }
 
         public ICompanyService CompanyService => _companyService.Value; 
