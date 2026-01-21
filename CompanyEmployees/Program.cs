@@ -1,4 +1,5 @@
 using ActionFilters;
+using AspNetCoreRateLimit;
 using CompanyEmployees.Extensions;
 using CompanyEmployees.Utility;
 using Contracts;
@@ -31,6 +32,9 @@ builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.ConfigureVersioning();
 builder.Services.ConfigureResponseCaching();
 builder.Services.ConfigureHttpCacheHeaders();
+builder.Services.AddMemoryCache();
+builder.Services.ConfigureRateLimitingOptions();
+builder.Services.AddHttpContextAccessor();
 
 //Suppresses the default model state validation that is implemented due to the existence
 //of the [ApiController] attribute in all API controllers.
@@ -94,6 +98,8 @@ app.UseForwardedHeaders(new ForwardedHeadersOptions
 {
     ForwardedHeaders = ForwardedHeaders.All
 });
+
+app.UseIpRateLimiting();
 
 app.UseCors("CorsPolicy");
 
