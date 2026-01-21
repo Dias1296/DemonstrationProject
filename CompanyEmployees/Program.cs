@@ -28,6 +28,7 @@ builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.ConfigureVersioning();
 
 //Suppresses the default model state validation that is implemented due to the existence
 //of the [ApiController] attribute in all API controllers.

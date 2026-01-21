@@ -1,7 +1,9 @@
-﻿using Contracts;
+﻿using CompanyEmployees.Presentation.Controllers;
+using Contracts;
 using Logger_Service;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
+using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.EntityFrameworkCore;
 using Repository;
 using Service;
@@ -79,6 +81,19 @@ namespace CompanyEmployees.Extensions
                     xmlOutputFormatter.SupportedMediaTypes
                     .Add("application/vnd.fdad.apiroot+xml");
                 }
+            });
+        }
+
+        public static void ConfigureVersioning(this IServiceCollection services)
+        {
+            services.AddApiVersioning(opt =>
+            {
+                opt.ReportApiVersions = true;   //Adds API Version to response header
+                opt.AssumeDefaultVersionWhenUnspecified = true;
+                opt.DefaultApiVersion = new ApiVersion(1, 0);
+                opt.ApiVersionReader = new HeaderApiVersionReader("api-version"); //Enables api-version through header
+                //opt.Conventions.Controller<CompaniesController>().HasApiVersion(new ApiVersion(1, 0)); 
+                //opt.Conventions.Controller<CompaniesV2Controller>().HasDeprecatedApiVersion(new ApiVersion(2, 0));
             });
         }
     }
