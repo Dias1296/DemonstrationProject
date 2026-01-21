@@ -29,6 +29,8 @@ builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.ConfigureVersioning();
+builder.Services.ConfigureResponseCaching();
+builder.Services.ConfigureHttpCacheHeaders();
 
 //Suppresses the default model state validation that is implemented due to the existence
 //of the [ApiController] attribute in all API controllers.
@@ -56,6 +58,7 @@ builder.Services.AddControllers(config => {
     config.RespectBrowserAcceptHeader = true;   //Sets the server flag for content negotiation (Accept Header)
     config.ReturnHttpNotAcceptable = true;      //Sets the server flag to return a Not Acceptable response for non-supported response formats.
     config.InputFormatters.Insert(0, GetJsonPatchInputFormatter()); //Places JsonPatchInputFormatter at the index 0 in the InputFormatters list.
+    config.CacheProfiles.Add("120SecondsDuration", new CacheProfile { Duration = 120 });
 }).AddXmlDataContractSerializerFormatters()
   .AddCustomCSVFormatter()
   .AddApplicationPart(typeof(CompanyEmployees.Presentation.AssemblyReference).Assembly);
@@ -93,6 +96,10 @@ app.UseForwardedHeaders(new ForwardedHeadersOptions
 });
 
 app.UseCors("CorsPolicy");
+
+app.UseResponseCaching();
+
+app.UseHttpCacheHeaders();
 
 app.UseRouting();
 
