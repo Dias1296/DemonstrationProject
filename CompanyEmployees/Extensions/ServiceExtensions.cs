@@ -64,6 +64,8 @@ namespace CompanyEmployees.Extensions
                 {
                     systemTextJsonOutputFormatter.SupportedMediaTypes
                     .Add("application/vnd.fdad.hateoas+json");
+                    systemTextJsonOutputFormatter.SupportedMediaTypes
+                    .Add("application/vnd.fdad.apiroot+json");
                 }
 
                 var xmlOutputFormatter = config.OutputFormatters
@@ -74,6 +76,8 @@ namespace CompanyEmployees.Extensions
                 {
                     xmlOutputFormatter.SupportedMediaTypes
                     .Add("application/vnd.fdad.hateoas+xml");
+                    xmlOutputFormatter.SupportedMediaTypes
+                    .Add("application/vnd.fdad.apiroot+xml");
                 }
             });
         }

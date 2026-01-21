@@ -1,5 +1,22 @@
 [
   {
+    "ContainingType": "CompanyEmployees.Presentation.Controllers.RootController",
+    "Method": "GetRoot",
+    "RelativePath": "api",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Accept",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetRoot"
+  },
+  {
     "ContainingType": "CompanyEmployees.Presentation.Controllers.CompaniesController",
     "Method": "GetCompanies",
     "RelativePath": "api/companies",
@@ -7,7 +24,8 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [],
+    "EndpointName": "GetCompanies"
   },
   {
     "ContainingType": "CompanyEmployees.Presentation.Controllers.CompaniesController",
@@ -23,7 +41,8 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [],
+    "EndpointName": "CreateCompany"
   },
   {
     "ContainingType": "CompanyEmployees.Presentation.Controllers.CompaniesController",
