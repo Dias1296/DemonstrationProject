@@ -3,17 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7A69612-1C20-4B0F-A3C8-69C1D19C4FDE}|CompanyEmployees.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\companyemployees\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7A69612-1C20-4B0F-A3C8-69C1D19C4FDE}|CompanyEmployees.csproj|solutionrelative:extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{261CD2E5-AB69-40F7-A2D6-59D1B60F5BD0}|..\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\companyemployees.presentation\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{261CD2E5-AB69-40F7-A2D6-59D1B60F5BD0}|..\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\companyemployees.presentation\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{045A7EF8-085E-4A54-AE32-7AA8EE9E2B93}|..\\Service\\Service.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\service\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7A69612-1C20-4B0F-A3C8-69C1D19C4FDE}|CompanyEmployees.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\companyemployees\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7A69612-1C20-4B0F-A3C8-69C1D19C4FDE}|CompanyEmployees.csproj|solutionrelative:extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7A69612-1C20-4B0F-A3C8-69C1D19C4FDE}|CompanyEmployees.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\companyemployees\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7A69612-1C20-4B0F-A3C8-69C1D19C4FDE}|CompanyEmployees.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7A69612-1C20-4B0F-A3C8-69C1D19C4FDE}|CompanyEmployees.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\companyemployees\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C7A69612-1C20-4B0F-A3C8-69C1D19C4FDE}|CompanyEmployees.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{045A7EF8-085E-4A54-AE32-7AA8EE9E2B93}|..\\Service\\Service.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F110C61-0C25-42A6-A79A-F3B8E3E5826C}|..\\Service.Contracts\\Service.Contracts.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\service.contracts\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{905135B9-0AEC-4A61-9D62-8F8930F45824}|..\\Shared\\Shared.csproj|c:\\users\\fabio\\desktop\\demonstrationproject\\shared\\datatransferobjects\\userforauthenticationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,16 +45,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees\\Extensions\\ServiceExtensions.cs",
-              "RelativeDocumentMoniker": "Extensions\\ServiceExtensions.cs",
-              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees\\Extensions\\ServiceExtensions.cs",
-              "RelativeToolTip": "Extensions\\ServiceExtensions.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAnwHwAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T22:59:50.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-05T20:58:07.088Z"
             },
             {
               "$type": "Document",
@@ -50,35 +63,83 @@
               "RelativeDocumentMoniker": "..\\CompanyEmployees.Presentation\\Controllers\\AuthenticationController.cs",
               "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees.Presentation\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "..\\CompanyEmployees.Presentation\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAzwBoAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwCcAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T22:53:58.832Z",
+              "WhenOpened": "2026-02-05T20:44:26.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServiceManager.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service\\ServiceManager.cs",
-              "RelativeDocumentMoniker": "..\\Service\\ServiceManager.cs",
-              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service\\ServiceManager.cs",
-              "RelativeToolTip": "..\\Service\\ServiceManager.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T22:42:02.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service\\AuthenticationService.cs",
               "RelativeDocumentMoniker": "..\\Service\\AuthenticationService.cs",
               "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service\\AuthenticationService.cs",
               "RelativeToolTip": "..\\Service\\AuthenticationService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAIA4wB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAswC8AAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T22:24:47.051Z",
+              "WhenOpened": "2026-02-05T20:18:40.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service.Contracts\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "..\\Service.Contracts\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Service.Contracts\\IAuthenticationService.cs",
+              "RelativeToolTip": "..\\Service.Contracts\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T20:17:32.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserForAuthenticationDto.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Shared\\DataTransferObjects\\UserForAuthenticationDto.cs",
+              "RelativeDocumentMoniker": "..\\Shared\\DataTransferObjects\\UserForAuthenticationDto.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\Shared\\DataTransferObjects\\UserForAuthenticationDto.cs",
+              "RelativeToolTip": "..\\Shared\\DataTransferObjects\\UserForAuthenticationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T20:15:49.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-05T20:05:53.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "Extensions\\ServiceExtensions.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAEwJoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T20:04:33.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompaniesController.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
+              "RelativeDocumentMoniker": "..\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
+              "ToolTip": "C:\\Users\\fabio\\Desktop\\DemonstrationProject\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
+              "RelativeToolTip": "..\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T19:58:53.503Z",
               "EditorCaption": ""
             }
           ]

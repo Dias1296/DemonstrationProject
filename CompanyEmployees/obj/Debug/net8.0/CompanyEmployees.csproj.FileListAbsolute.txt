@@ -322,3 +322,4 @@ C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees\bin\Debug\net8.0\Ma
 C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees\bin\Debug\net8.0\AspNetCoreRateLimit.dll
 C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

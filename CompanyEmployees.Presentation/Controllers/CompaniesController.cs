@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ActionFilters;
+﻿using ActionFilters;
 using CompanyEmployees.Presentation.ModelBinders;
 using Marvin.Cache.Headers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Service.Contracts;
 using Shared.DataTransferObjects;
@@ -23,6 +19,7 @@ namespace CompanyEmployees.Presentation.Controllers
         public CompaniesController(IServiceManager service) => _service = service;
 
         [HttpGet(Name ="GetCompanies")]
+        [Authorize(Roles = "Manager")]
         public async Task<IActionResult> GetCompanies()
         {
             //Removed try-catch block due to Global Exception Handling
