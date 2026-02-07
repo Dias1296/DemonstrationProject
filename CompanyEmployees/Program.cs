@@ -38,6 +38,7 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddAuthentication();
 builder.Services.ConfigureIdentity();
 builder.Services.ConfigureJWT(builder.Configuration);
+builder.Services.AddJwtConfiguration(builder.Configuration);
 
 //Suppresses the default model state validation that is implemented due to the existence
 //of the [ApiController] attribute in all API controllers.

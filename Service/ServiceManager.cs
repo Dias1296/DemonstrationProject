@@ -1,8 +1,9 @@
 ﻿using AutoMapper;
 using Contracts;
+using Entities.ConfigurationModels;
 using Entities.Models;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
 using Service.Contracts;
 
 namespace Service
@@ -14,7 +15,7 @@ namespace Service
         private readonly Lazy<IAuthenticationService> _authenticationService;
 
         public ServiceManager(IRepositoryManager repositoryManager, ILoggerManager logger,
-            IMapper mapper, IEmployeeLinks employeeLinks, UserManager<User> userManager, IConfiguration configuration)
+            IMapper mapper, IEmployeeLinks employeeLinks, UserManager<User> userManager, IOptions<JwtConfiguration> configuration)
         {
             //Lazy is thread safe. Only one thread initializes the instance
             _companyService = new Lazy<ICompanyService>(() => 
