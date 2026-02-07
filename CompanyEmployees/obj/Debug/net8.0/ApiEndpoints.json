@@ -73,7 +73,43 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/vnd.fdad.hateoas\u002Bjson",
+          "application/vnd.fdad.apiroot\u002Bjson",
+          "application/xml",
+          "text/xml",
+          "application/vnd.fdad.hateoas\u002Bxml",
+          "application/vnd.fdad.apiroot\u002Bxml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/vnd.fdad.hateoas\u002Bjson",
+          "application/vnd.fdad.apiroot\u002Bjson",
+          "application/xml",
+          "text/xml",
+          "application/vnd.fdad.hateoas\u002Bxml",
+          "application/vnd.fdad.apiroot\u002Bxml"
+        ],
+        "StatusCode": 422
+      }
+    ],
     "EndpointName": "CreateCompany"
   },
   {

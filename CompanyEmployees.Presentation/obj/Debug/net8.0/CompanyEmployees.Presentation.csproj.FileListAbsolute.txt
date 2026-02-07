@@ -20,3 +20,4 @@ C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees.Presentation\bin\De
 C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees.Presentation\bin\Debug\net8.0\Entities.pdb
 C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees.Presentation\bin\Debug\net8.0\ActionFilters.dll
 C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees.Presentation\bin\Debug\net8.0\ActionFilters.pdb
+C:\Users\fabio\Desktop\DemonstrationProject\CompanyEmployees.Presentation\bin\Debug\net8.0\CompanyEmployees.Presentation.xml
