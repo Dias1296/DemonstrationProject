@@ -1,8 +1,7 @@
-﻿using System.Net;
-using Contracts;
-using Microsoft.AspNetCore.Diagnostics;
+﻿using Contracts;
 using Entities.ErrorModel;
 using Entities.Exceptions;
+using Microsoft.AspNetCore.Diagnostics;
 
 namespace CompanyEmployees.Extensions
 {

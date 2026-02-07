@@ -1,5 +1,4 @@
 ﻿using ActionFilters;
-using Entities.LinkModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
 using Service.Contracts;
